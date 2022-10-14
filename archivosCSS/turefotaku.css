@@ -14,8 +14,7 @@ body {
   
 }
 
- header{
-    background-color: rgb(18, 85, 194);
+header{
     background-image: url(https://i.pinimg.com/originals/fa/3a/6c/fa3a6cb112638bdda62973e635349fdc.png);
     background-repeat: no-repeat;
     background-position: 0px 30%;
@@ -23,10 +22,11 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    filter: blur(4px);
-     /****************/
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+
     background-size: 100%;
-    padding-bottom: 200px;
+    padding-bottom: 130px;
     width: 100%;
     text-align: center;
 
@@ -36,13 +36,14 @@ body {
 h1{
 
     display: flex;
+    position: absolute;
     justify-content: center;
     font-family:sans-serif;
     font-family:sans-serif;
-    -webkit-text-stroke: 1px rgb(202, 127, 77);
+    -webkit-text-stroke: 2px rgb(185, 92, 31);
     margin-bottom: 5px;
-    margin-left: 5%;
-    position: absolute;
+    margin-left: 3%;
+    margin-top: 1%;
     color: transparent;
     font-size: 80px;
     font-weight: 700;
@@ -61,11 +62,6 @@ h1{
 h2{
     font-family:sans-serif;
 }
-/* .titlepag{
-    font-family:sans-serif;
-    text-shadow:10px #ed8526;
-    
- } */
 
 a:link {
     text-decoration: none;
@@ -171,7 +167,6 @@ ul{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    
 }
 /* .trailer__titulo{
     width: 100%;
@@ -314,9 +309,9 @@ transform: scale(1.1);
 }
 
 .recom__seccion{
-    width: 50%;
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
     
 }
 .recom__texto{
@@ -327,21 +322,21 @@ transform: scale(1.1);
 .recom__texto__titulo{
     
     margin-left: 15%;
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
     display: flex;
     justify-content: center;
-    max-width: 200px;;
+    text-align:center;
+    max-width: 230px;;
     max-height: 200px;
     background-color: rgb(18, 85, 194);
     border: 2px;
     border-style: solid;
-    border-radius: 45px;
+    border-radius: 10px;
     border-color: rgb(206, 206, 207);
     color: white;
-    font-family: 'Source Serif Pro', serif,Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: sans-serif;
+    /* font-size: 20px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .recom__texto__descrip{
     margin: 30px;
@@ -684,7 +679,7 @@ justify-content: center
     border-style: solid;
     border-color: rgb(18, 85, 194);
     
-    width: 100%;
+    width: 99,5%;
     bottom: 0;
     margin-bottom: 0;
     
