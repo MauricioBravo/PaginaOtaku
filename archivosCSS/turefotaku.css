@@ -1,0 +1,728 @@
+body {
+    background-image: url(https://cutewallpaper.org/22/naruto-minimal-wallpapers/526523235.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px 30%;
+    background-attachment: fixed;
+    background-color: #ed8526;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    
+  
+}
+
+ header{
+    background-color: rgb(18, 85, 194);
+    background-image: url(https://i.pinimg.com/originals/fa/3a/6c/fa3a6cb112638bdda62973e635349fdc.png);
+    background-repeat: no-repeat;
+    background-position: 0px 30%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: blur(4px);
+     /****************/
+    background-size: 100%;
+    padding-bottom: 200px;
+    width: 100%;
+    text-align: center;
+
+ }
+
+
+h1{
+
+    display: flex;
+    justify-content: center;
+    font-family:sans-serif;
+    font-family:sans-serif;
+    -webkit-text-stroke: 1px rgb(202, 127, 77);
+    margin-bottom: 5px;
+    margin-left: 5%;
+    position: absolute;
+    color: transparent;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    background-image: linear-gradient(
+        180deg,
+        yellow,
+        #ed8526
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    /* text-shadow: #ed8526; */
+    
+}
+h2{
+    font-family:sans-serif;
+}
+/* .titlepag{
+    font-family:sans-serif;
+    text-shadow:10px #ed8526;
+    
+ } */
+
+a:link {
+    text-decoration: none;
+
+}
+a:visited{/* Funciona para evitar que el link aparesca morado */
+    text-decoration: none;
+    color: black; 
+
+}
+ul{
+    list-style: none;
+}
+/*CLASS*/
+.titular{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.logo{
+
+    margin-left: 10px;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    position: sticky;
+    top: -2px;
+    
+    
+}
+
+.menu {
+    
+    background-color:rgb(18, 85, 194) ;
+    
+    position: sticky;
+    top: -2px;
+    
+    
+}
+
+.menu__barra{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    padding-left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: 0;
+}
+
+.button{
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    max-width: auto;
+    font-family:sans-serif;
+    font-size: 20px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #ed8526;
+    color: black;
+    border: 2px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: rgb(125, 125, 125);
+    color:white;
+}
+.button:active{
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    max-width: auto;
+    font-family:sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgb(189, 189, 189);
+    color: black;
+    font-size: 15px;
+    border: 2px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: #ed8526;
+
+}
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0.3s
+  }
+
+.trailer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+/* .trailer__titulo{
+    width: 100%;
+    height: 50px;
+    
+
+
+} */
+.trailer__titulo__texto{
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    max-width: 200px;;
+    max-height: 200px;
+    background-color: rgb(18, 85, 194);
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(206, 206, 207);
+    color: white;
+    font-family: sans-serif;
+    /* font-size: 20px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.trailer__galeri{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+.trailer__galeri__video{
+    padding: 15px;
+    
+
+}
+
+
+.recomendacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-items: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    transition: all 500ms ease;
+}
+
+/*  */
+
+.recomendacion__animepre{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;  
+    padding: 30px;
+    transition: all 500ms ease;
+
+    align-content: center;
+    border: 2px;
+    border-style: solid;
+    
+    border-color:rgb(18, 85, 194);
+    border-radius: 25px;
+    background-color: orange;
+    text-align: center;
+}
+.recomendacion__animepre__imagenpre{
+    min-width: 60%;
+    min-height: 60%;
+    width: 100%;
+    height: 100%;
+    max-width: 170px;
+    max-height: 270px;
+    /* margin-left: 13%; */
+    transition: all 500ms ease;
+
+}
+
+.recomendacion__animepre__imagenpre:hover{
+transform: scale(1.1);
+}
+
+
+/* .recomendacion__animepre__imagenpre__capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100;
+    background: rgba(7, 247, 87, 0.592);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    
+}
+
+.recomendacion__animepre:hover > .recomendacion__animepre__imagenpre__capa{
+    opacity: 1;
+    visibility: visible;
+} */
+
+.recomendacion__animepre__nombre{
+    background-color: rgb(18, 85, 194);
+    font-size: 20px;
+    /* padding-left: 0; */
+    /* padding-right: 0; */
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+    border: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    
+    color: white;
+    border-color:none;
+} 
+
+
+.recomendacion__animepre__valoracion{
+    background-color: rgb(18, 85, 194);
+    /* padding-left: ; */
+    /* padding-right: 0; */
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+    border: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    
+    color: white;
+
+    
+}
+
+.recom{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.recom__seccion{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.recom__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+.recom__texto__titulo{
+    
+    margin-left: 15%;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    max-width: 200px;;
+    max-height: 200px;
+    background-color: rgb(18, 85, 194);
+    border: 2px;
+    border-style: solid;
+    border-radius: 45px;
+    border-color: rgb(206, 206, 207);
+    color: white;
+    font-family: 'Source Serif Pro', serif,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.recom__texto__descrip{
+    margin: 30px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(206, 206, 207);
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(206, 206, 207);
+}
+.recom__lista__peliculas{
+    display: inline;
+}
+
+
+
+
+/* PAGINA: GENEROS PAGINAS */
+
+
+.generos{
+    display: flex;
+    flex-direction: column;
+}
+.generos__descrip{
+    width: 100%;
+    
+}
+.generos__descrip__titulo{
+    width: 100%;
+    margin-left: 20%;
+    padding: 15px;
+    display: flex;
+    text-align:center;
+    max-width: 200px;
+    max-height: 200px;
+
+    background-color: rgb(18, 85, 194);
+    border: 2px;
+    border-style: solid;
+    border-radius: 45px;
+    border-color: rgb(206, 206, 207);
+    color: white;
+
+    font-family: 'Source Serif Pro', serif,Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+
+.generos__descrip__parrafo{
+ text-align: center;
+ background-color: rgb(189, 189, 189);
+ width: 450px;
+ margin-left: 30%;
+ 
+padding: 5px;
+
+ border: 0;
+ border-style: solid;
+ border-radius: 10px;
+
+}
+
+/* 
+
+.recomendacion{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.recomendacion__animepre{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;  
+    padding: 30px;  
+
+    align-content: center;
+    border: 2px;
+    border-style: solid;
+    
+    border-color:rgb(18, 85, 194);
+    border-radius: 25px;
+    background-color: orange;
+    text-align: center;
+}
+.recomendacion__animepre__imagenpre{
+    min-width: 60%;
+    min-height: 60%;
+    width: 100%;
+    height: 100%;
+    max-width: 170px;
+    max-height: 270px;
+
+}
+.recomendacion__animepre__nombre{
+    background-color: rgb(18, 85, 194);
+    font-size: 20px;
+    border: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    
+    color: white;
+    border-color:none;
+} 
+
+
+.recomendacion__animepre__valoracion{
+    background-color: rgb(18, 85, 194);
+    /* padding-left: ; */
+    /* padding-right: 0; */
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+    /* border: 0px;
+    border-style: solid;
+    border-radius: 5px;
+    
+    color: white;
+
+    
+} */ 
+
+
+/* PAGINA: GENEROS*/
+
+.genero_generos{
+    margin: 10px;
+    padding: 20px;
+}
+.genero_generos__titulogeneros{
+    
+    /* transform: translate(-50%,-50%);
+    margin-left: 50%; */
+    /* position: absolute; z-index:1; */
+
+    display: flex;
+    justify-content: center;
+    max-width: 200px;;
+    max-height: 200px;
+    background-color: rgb(8, 8, 126);
+    border: 2px;
+    border-style: solid;
+    border-radius: 45px;
+    border-color: rgb(206, 206, 207);
+    color: white;
+    font-family: 'Source Serif Pro', serif,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.genero_generos__contenedor{
+display: flex;
+justify-content: center
+
+}
+.genero_generos__contenedor__catalogo{
+
+    display:flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-width: 200px;
+
+}
+
+.genero_generos__contenedor__catalogo__genespecific{
+    
+    /* margin: 100px; */
+    
+    /* background-size: 100%; */
+    
+    /* border: 5px; */
+    /* border-style: solid; */
+    min-width: 200px;
+    width: 350px;
+    height: 130px;
+
+    margin: 20px;
+    display: flex;
+    flex-direction: column;  
+    padding: 30px;  
+
+    align-content: center;
+    border: 2px;
+    border-style: solid;
+    
+    border-color:rgba(18, 86, 194, 0.592);
+    border-radius: 25px;
+    
+    text-align: center;
+
+}
+#genero_generos__contenedor__catalogo__genespecific--accion{
+    background-image: url(/imagenes/generoAccion.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+    
+}
+#genero_generos__contenedor__catalogo__genespecific--romance{
+    background-image: url(/imagenes/animeRomance.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+    
+}
+.genero_generos__contenedor__catalogo__genespecific__nombre{
+    font-size: 40px;
+    text-align: center;
+    /* padding: 10px; */
+
+    background-color: rgba(18, 86, 194, 0.752);
+
+    color: white;
+    border: 0px;
+    border-style: solid;
+    border-color: rgba(18, 86, 194, 0.592);
+    border-radius: 15px;
+}
+
+
+
+/* PAGINA: QUIENSOY*/
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+    background-color: rgba(18, 86, 194, 0.727);
+
+    border: 0px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 5%;
+}
+.presentacion__titulo{
+    background-color: rgb(189, 189, 189);
+    padding: 10px;
+
+    border: 0px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.presentacion__descripcion{
+    background-color: rgb(189, 189, 189);
+    padding: 10px;
+
+    border: 0px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+.formulario__titulo{
+    background-color: rgb(189, 189, 189);
+    padding: 10px;
+
+    border: 0px;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+.formulario__datos{
+    background-color: rgba(18, 86, 194, 0.736);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 250px;
+    width: 50%;
+    max-width: 400px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(189, 189, 189);
+}
+
+.formulario__datos__cartel{
+    text-align: center;
+    background-color: #ed8526;
+    padding: 5px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(189, 189, 189);
+
+}
+
+
+
+.formulario__datos__input{
+    margin: 10px;
+    background-color: rgb(189, 189, 189);
+    padding: 10px;
+
+    border: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    
+}
+
+.formulario__datos__cartel__input--input{
+    outline: none;
+    
+}
+
+
+.formulario__datos__button{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-items: center; */
+    margin-left: 43%;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+}
+
+/* PAGINA: QUIENSOY*/
+
+
+
+
+/* PIE DE PAGINA */
+
+.piedepagina{
+    background-color: rgb(18, 85, 194);
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    /* padding: 20px; */
+    align-items:flex-start;
+    border: 2px;
+    
+    border-style: solid;
+    border-color: rgb(18, 85, 194);
+    
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0;
+    
+   
+}
+.piedepagina-generos{
+    background-color: rgb(18, 85, 194);
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    
+    align-items:flex-start;
+    border: 2px;
+    
+    border-style: solid;
+    border-color: rgb(18, 85, 194);
+    
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0;
+    
+}
+
+.piedepagina__redes__iconos{
+    display: inline;
+    padding: 20px;
+}
+.piedepagina__redes__titulo{
+    padding: 20px;
+    color: white;
+}
+.piedepagina__redes__iconos__redes{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+.piedepagina__agradecimiento{
+    color: white; 
+    padding: 20px;
+}
